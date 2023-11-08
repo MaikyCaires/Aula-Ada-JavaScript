@@ -15,7 +15,7 @@ const parceirosPJ = [];
 const parceirosCPF = [];
 
 parceiros.forEach(parceiro => {
-  const id = parceiro[0].toString(); // Converter o ID para uma string
+  const id = parceiro[0].toString(); 
   if (id.length === 14) {
     parceirosPJ.push(parceiro);
   } else if (id.length === 11) {
