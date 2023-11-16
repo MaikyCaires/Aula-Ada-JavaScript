@@ -1,6 +1,6 @@
-let peso = prompt('Digite seu peso')
-let altura =prompt('Digite sua altura em metros')
-let imc = peso / (altura * altura)
+const peso = prompt('Digite seu peso')
+const altura =prompt('Digite sua altura em metros ex: 1.80')
+const imc = peso / (altura * altura)
 
 if(imc >= 30){
     console.log(`Com imc de: ${imc.toFixed(1)},  você está com obesidade`)
