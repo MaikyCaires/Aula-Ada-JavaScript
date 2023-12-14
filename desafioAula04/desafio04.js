@@ -5,6 +5,7 @@ const lista = 'régua/valor3=cupom0;lápis/valor0.5=cupom0;mochila/valor50=cupom
 let produtos = lista.split(";")
 
 produtos  = produtos.filter(produto => produto != '')
+console.log(produtos)
 
 const listaProdutos = []
 produtos.forEach(produto => {
