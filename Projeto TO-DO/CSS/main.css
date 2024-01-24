@@ -1,0 +1,115 @@
+/* fontes usadas */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:ital,wght@0,400;0,500;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:linear-gradient(to right, #b3e0ff, #66a3ff )
+}
+/* content */
+.content{
+    display: grid;
+    justify-content: center;
+    margin-top: 5rem;
+   
+    
+}
+
+.back{
+    background-color: rgba(0, 0, 0, 0.2) ;
+    padding: 100px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
+
+
+.entrada{
+    margin-top: 20px;
+    margin-bottom: 25px;
+    display: flex;
+    gap: 10px;
+    
+}
+
+
+.lista{
+    margin-top: 20px;
+}
+
+
+
+/* fontes */
+h1{
+    font: normal 4rem roboto;
+    font-weight: 500;
+    color: #01388b;
+    
+}
+h1::after{
+    content: " \1F4C4";
+    font-size: 3.5rem;
+}
+::placeholder {
+    font-size: 1.2rem;
+}
+.back div label{
+    font-size: 2rem;
+}
+
+/* entrada*/
+button{
+    padding: 0px 15px;
+    font-size: 30px;
+    color: white;
+    background-color: #023581;
+    border: none;
+    outline: none;
+}
+
+
+.back div input{
+    padding: 15px;
+    width: 350px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+/*estilização li */
+.tarefa-item{
+    list-style: none;
+    font: normal 25px Poppins red;
+    display: grid;
+    grid-template-columns: 300px 1fr 1fr; /* Ajuste conforme necessário */
+    
+   
+   
+    
+}
+
+.tarefa-item button{
+    color: red;
+    font-size: 20px;
+    width: 0px 10px;
+    background-color: black;
+}
+
+
+.tarefa-item input{
+    height: 25px;
+    border: 2px solid #333; /* Cor da borda da caixa de seleção */
+    border-radius: 4px; /* Bordas arredondadas */
+    
+}
+
+
+
+
