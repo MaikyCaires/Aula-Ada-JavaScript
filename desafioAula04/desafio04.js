@@ -11,6 +11,7 @@ const listaProdutos = []
 produtos.forEach(produto => {
     const [nomeProduto, restante]= produto.split('/valor')
     const [preco, cupom]= restante.split("=cupom")
+    
 
     const posicao = listaProdutos.findIndex((produto)=> nomeProduto == produto.produto)
     if(posicao == -1){
